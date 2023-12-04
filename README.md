@@ -8,10 +8,12 @@
 create database userdb;
 use userdb;
 
-create table users (
-  id bigint primary key auto_increment,
-  username varchar(150),
-  password int not null
+create 	table users(
+id CHAR(36) NOT NULL PRIMARY KEY,
+username varchar(100) not null unique,
+password varchar (100) not null,
+role text auto_increment
 );
 
-select * from users;
+select 	 * from users;
+
