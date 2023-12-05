@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body{
+body {
     box-sizing: border-box;
     background-color: #3F5D63;
     color: white;
@@ -104,6 +104,7 @@ body{
     flex-direction: column;
     gap: 40px;
 }
+
 
 .imagem{
     height: 50%;
